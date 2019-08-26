@@ -5,14 +5,7 @@ import scipy.io as sio
 from PyQt5.QtWidgets import QApplication, QMainWindow, QSizePolicy
 from GraphDisplay import Ui_MainWindow
 
-from SignalProcesing import Math, Function
-from NewSignal import NewFunctWindow
-from filterWindow import filterFunctWindow
 
-from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
-from matplotlib.backends.backend_qt5agg import NavigationToolbar2QT as NavigationToolbar
-from matplotlib.figure import Figure
-import matplotlib.pyplot as plt
 
 class AppWindow(QMainWindow):
     def __init__(self):
